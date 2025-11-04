@@ -25,7 +25,7 @@ app.use(
       "http://localhost:5174", 
       "https://ecom-three-sigma.vercel.app",
       "https://ecom-eight-roan.vercel.app",
-      "https://ecom-backend.vercel.app"
+      "ecom-backend-ashen-mu.vercel.app"
     ],
     credentials: true,
   })
