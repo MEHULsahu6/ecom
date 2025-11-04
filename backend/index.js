@@ -20,7 +20,13 @@ app.use(express.json({ limit: '10mb' }))
 app.use(cookieParser())
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174", "https://your-frontend-domain.vercel.app"],
+    origin: [
+      "http://localhost:5173", 
+      "http://localhost:5174", 
+      "https://ecom-three-sigma.vercel.app",
+      "https://ecom-eight-roan.vercel.app",
+      "https://ecom-backend.vercel.app"
+    ],
     credentials: true,
   })
 )
